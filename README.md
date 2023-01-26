@@ -26,7 +26,7 @@ The examples are provided in a MATLAB project.
 This example was updated using MATLAB release R2022b.
 - [MATLAB&reg;](https://www.mathworks.com/products/matlab.html)
 - [Statistics and Machine Learning Toolbox&trade;](https://www.mathworks.com/products/statistics.html)
-- [Parallel Computing Toolbox&trade;](https://www.mathworks.com/products/parallel-computing.html)
+- [Parallel Computing Toolbox&trade;](https://www.mathworks.com/products/parallel-computing.html) (Optional)
 
 ## License
 The license for this entry is available in the [license.txt](license.txt) file in this GitHub repository.
