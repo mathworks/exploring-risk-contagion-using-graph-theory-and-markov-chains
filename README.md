@@ -2,6 +2,8 @@
 
 [![View Exploring Risk Contagion Using Graph Theory and Markov Chains on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/57046-exploring-risk-contagion-using-graph-theory-and-markov-chains-live-editor-version)
 
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/exploring-risk-contagion-using-graph-theory-and-markov-chains&file=RiskContagion.mlx)
+
 Recent financial crises and periods of market volatility have heightened awareness of risk contagion and systemic risk among financial analysts. As a result, financial professionals are often tasked with constructing and analyzing models that will yield insight into the potential impact of risk on investments, portfolios, and business operations.
 
 Several authors have described the use of advanced mathematical and statistical techniques for quantifying the dependent relationships between investments, foreign exchange rates, industrial sectors, or geographical regions. Bridging the gap between formal methods and a working code implementation is a key challenge for analysts.
