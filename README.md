@@ -1,6 +1,6 @@
 # Exploring Risk Contagion Using Graph Theory and Markov Chains
 
-[![View Exploring Risk Contagion Using Graph Theory and Markov Chains on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://uk.mathworks.com/matlabcentral/fileexchange/57046-exploring-risk-contagion-using-graph-theory-and-markov-chains-live-editor-version)
+[![View Exploring Risk Contagion Using Graph Theory and Markov Chains on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/57046-exploring-risk-contagion-using-graph-theory-markov-chains)
 
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/exploring-risk-contagion-using-graph-theory-and-markov-chains&file=RiskContagion.mlx)
 
