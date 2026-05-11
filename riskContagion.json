@@ -1,0 +1,12 @@
+{
+    "ToolboxName":"Risk Contagion",
+    "Identifier":"fbd09245-4cb5-4582-a22a-3fd949643436",
+    "Summary":"Exploring Risk Contagion Using Graph Theory and Markov Chains",
+    "Description":"This example shows how to analyze aspects of risk contagion in financial time series using mathematical tools such as graph theory and Markov chains. The toolbox contains the code and examples for the technical article 'Exploring Risk Contagion Using Graph Theory and Markov Chains'.",
+    "AuthorCompany":"MathWorks",
+    "AuthorName":"Ken Deeley",
+    "AuthorEmail":"kdeeley@mathworks.com",
+    "ToolboxFolder":"./tbx",
+    "ToolboxMatlabPath": ["./tbx", "./tbx/riskContagion"],
+    "MinimumMatlabRelease":"R2025a"
+}

@@ -1,7 +1,7 @@
 # Exploring Risk Contagion Using Graph Theory and Markov Chains
 
 [![View Exploring Risk Contagion Using Graph Theory and Markov Chains on File Exchange](readme/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/57046-exploring-risk-contagion-using-graph-theory-markov-chains)
-[![Open in MATLAB Online](readme/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/exploring-risk-contagion-using-graph-theory-and-markov-chains&project=Contagion.prj&file=RiskContagion.mlx)
+[![Open in MATLAB Online](readme/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=mathworks/exploring-risk-contagion-using-graph-theory-and-markov-chains&project=RiskContagion.prj&file=tbx/riskContagion/RiskContagion.m)
 
 Recent financial crises and periods of market volatility have heightened awareness of risk contagion and systemic risk among financial analysts. As a result, financial professionals are often tasked with constructing and analyzing models that will yield insight into the potential impact of risk on investments, portfolios, and business operations.
 
@@ -17,14 +17,14 @@ This code, along with the corresponding [technical article](https://uk.mathworks
 ![](readme/HistoricalMarkovChain.png)
 
 ## Installation and Getting Started
-The examples are provided in a MATLAB project.
-1. Double-click on the project archive (`Contagion.mlproj`) to extract it using MATLAB.
-2. With MATLAB open, navigate to the newly-created project folder and double-click on the project file (`Contagion.prj`) to open the project.
-3. The example file is the live script `RiskContagion.mlx` within the project.
+The examples are provided as a [MATLAB toolbox](https://www.mathworks.com/help/matlab/matlab_prog/create-and-share-custom-matlab-toolboxes.html).
+1. Download the toolbox installer (the `Risk_Contagion.mltbx` file) from the `Releases1 section on GitHub.
+2. Double-click on `Risk_Contagion.mltbx` file to install the toolbox.
+3. Open the main example script: `>> edit RiskContagion`
 
 ### [MathWorks&reg;](https://www.mathworks.com) Product Requirements
 
-This example was updated using MATLAB release R2022b.
+This example requires MATLAB R2025a or a later release.
 - [MATLAB&reg;](https://www.mathworks.com/products/matlab.html)
 - [Statistics and Machine Learning Toolbox&trade;](https://www.mathworks.com/products/statistics.html)
 - [Parallel Computing Toolbox&trade;](https://www.mathworks.com/products/parallel-computing.html) (Optional)
@@ -32,7 +32,7 @@ This example was updated using MATLAB release R2022b.
 ## License
 The license for this entry is available in the [license.txt](license.txt) file in this GitHub repository.
 
-Copyright 2016-2023 The MathWorks, Inc.
+Copyright 2016-2026 The MathWorks, Inc.
 
 ## Community Support
 [MATLAB Central](https://www.mathworks.com/matlabcentral)
