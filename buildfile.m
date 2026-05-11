@@ -38,7 +38,7 @@ plan("test") = matlab.buildtool.tasks.TestTask( tests, ...
     "SourceFiles", code, ...
     "Dependencies", "check" );
 
-% Add a task to export the Live Script to a Markdown file.
+% Add a task to export the Live Script as a PDF.
 plan("doc").Dependencies = "test";
 
 % Add the toolbox packaging task.
@@ -82,20 +82,12 @@ root = context.Plan.RootFolder;
 mainScript = "RiskContagion";
 mainFolder = fullfile( root, "tbx", tbxname() );
 docIn = fullfile( mainFolder, mainScript + ".m" );
-media = fullfile( mainFolder, mainScript + "_media" );
-docOut = fullfile( mainFolder, mainScript + ".md" );
+docOut = fullfile( mainFolder, mainScript + ".pdf" );
 
-% Execute and save the Live Script.
-matlab.internal.liveeditor.executeAndSave( char( docIn ) );
-
-% Export to Markdown.
+% Export to PDF.
 export( docIn, docOut, ...
-    "Format", "markdown", ...
-    "Run", false, ...
-    "EmbedImages", false, ...
-    "AcceptHTML", false, ...
-    "MediaLocation", media, ...
-    "IncludeOutputs", true );
+    "Format", "pdf", ...
+    "Run", true );
 
 end % docTask
 
