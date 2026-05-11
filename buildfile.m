@@ -15,7 +15,6 @@ prj = plan.RootFolder;
 tbx = fullfile( prj, "tbx" );
 code = fullfile( tbx, tbxname() );
 tests = fullfile( prj, "tests" );
-doc = fullfile( tbx, tbxname(), "RiskContagion.m" );
 
 % Add the standard clean task.
 plan("clean") = matlab.buildtool.tasks.CleanTask();
@@ -40,9 +39,6 @@ plan("test") = matlab.buildtool.tasks.TestTask( tests, ...
     "Dependencies", "check" );
 
 % Add a task to export the Live Script to a Markdown file.
-plan("doc").Inputs = doc;
-plan("doc").Outputs = ...
-    fullfile( tbx, tbxname(), "RiskContagion.md" );
 plan("doc").Dependencies = "test";
 
 % Add the toolbox packaging task.
@@ -81,16 +77,25 @@ end % checkProject
 function docTask( context )
 % Generate a Markdown version of the main example script.
 
-% Main example script file.
-doc = context.Task.Inputs.Path;
+% Define the task inputs and output.
+root = context.Plan.RootFolder;
+mainScript = "RiskContagion";
+mainFolder = fullfile( root, "tbx", tbxname() );
+docIn = fullfile( mainFolder, mainScript + ".m" );
+media = fullfile( mainFolder, mainScript + "_media" );
+docOut = fullfile( mainFolder, mainScript + ".md" );
+
+% Execute and save the Live Script.
+matlab.internal.liveeditor.executeAndSave( char( docIn ) );
 
 % Export to Markdown.
-[folder, filename] = fileparts( doc );
-exportName = fullfile( folder, filename + ".md" );
-export( doc, exportName, ...
+export( docIn, docOut, ...
     "Format", "markdown", ...
-    "IncludeOutputs", true, ...
-    "Run", true );
+    "Run", false, ...
+    "EmbedImages", false, ...
+    "AcceptHTML", false, ...
+    "MediaLocation", media, ...
+    "IncludeOutputs", true );
 
 end % docTask
 

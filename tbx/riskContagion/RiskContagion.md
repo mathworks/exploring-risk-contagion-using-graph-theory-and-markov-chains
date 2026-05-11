@@ -144,7 +144,7 @@ grid on
 legend(sectors, "Location", "best")
 ```
 
-\includegraphics[width=\maxwidth{56.196688409433015em}]{figure_0.png}
+![figure_0.png](RiskContagion_media/figure_0.png)
 
 <a id="H_67389465"></a>
 
@@ -165,7 +165,7 @@ grid on
 legend(sectors, "Location", "southoutside", "NumColumns", 2)
 ```
 
-\includegraphics[width=\maxwidth{56.196688409433015em}]{figure_1.png}
+![figure_1.png](RiskContagion_media/figure_1.png)
 
 <a id="H_0F29BB71"></a>
 
@@ -205,7 +205,7 @@ for k = 1:numel(sectors)
 end % for
 ```
 
-\includegraphics[width=\maxwidth{56.196688409433015em}]{figure_2.png}
+![figure_2.png](RiskContagion_media/figure_2.png)
 
 This chart shows the empirical pairwise relationships between the sector returns.
 
@@ -233,7 +233,7 @@ heatmap(sectors, sectors, sectorCorr, ...
 title("Sector Returns Pairwise Correlation")
 ```
 
-\includegraphics[width=\maxwidth{56.196688409433015em}]{figure_3.png}
+![figure_3.png](RiskContagion_media/figure_3.png)
 
 <a id="H_16DE5717"></a>
 
@@ -261,7 +261,7 @@ heatmap(sectors, sectors, sectorDist, ...
 title("Sector Returns Pairwise Distance Chart")
 ```
 
-\includegraphics[width=\maxwidth{56.196688409433015em}]{figure_4.png}
+![figure_4.png](RiskContagion_media/figure_4.png)
 
 <a id="H_3453CA88"></a>
 ## Translate the distance information into graph form.
