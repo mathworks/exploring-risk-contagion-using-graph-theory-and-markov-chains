@@ -19,12 +19,14 @@ classdef tRiskContagion < matlab.unittest.TestCase
 
             try
                 RiskContagion
-                testCase.verifyTrue( true )
-            catch e
-                testCase.verifyTrue( false, ...
-                    "The main example script did not run " + ...
-                    "without errors." )
+                success = true;
+            catch
+                success = false;
             end % try/catch
+            
+            testCase.verifyTrue( success, ...
+                "The main example script did not run " + ...
+                "without errors." )
 
         end % tScriptIsWarningFree
 
