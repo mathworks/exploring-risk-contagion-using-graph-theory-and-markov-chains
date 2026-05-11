@@ -19,7 +19,7 @@ This code, along with the corresponding [technical article](https://uk.mathworks
 ## Installation and Getting Started
 The examples are provided as a [MATLAB toolbox](https://www.mathworks.com/help/matlab/matlab_prog/create-and-share-custom-matlab-toolboxes.html).
 1. Download the toolbox installer (the `Risk_Contagion.mltbx` file) from the `Releases` section on GitHub.
-2. Double-click on `Risk_Contagion.mltbx` file to install the toolbox.
+2. Double-click on the `Risk_Contagion.mltbx` file to install the toolbox.
 3. Open the main example script: `>> edit RiskContagion`
 
 ### [MathWorks&reg;](https://www.mathworks.com) Product Requirements
