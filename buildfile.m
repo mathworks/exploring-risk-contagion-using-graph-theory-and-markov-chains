@@ -75,7 +75,7 @@ end % if
 end % checkProject
 
 function docTask( context )
-% Generate a Markdown version of the main example script.
+% Generate a PDF version of the main example script.
 
 % Define the task inputs and output.
 root = context.Plan.RootFolder;
