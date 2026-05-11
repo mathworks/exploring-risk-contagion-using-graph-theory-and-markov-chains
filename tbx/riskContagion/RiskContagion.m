@@ -316,7 +316,9 @@ for k = 1:numFrames     %[output:group:22fe094b]
 
 end % for %[output:group:22fe094b]
 %[text] %[text:anchor:H_D39C94C9] ### Finalize the video file.
-close(vid)
+if writeVideo
+    close(vid)
+end % if
 %%
 %[text] %[text:anchor:H_E69D268A] ## Track the central sector over time.
 %[text] %[text:anchor:H_CC35661D] ### Visualize the variation in the central sector over time.
