@@ -68,7 +68,7 @@ jobs:
       with:
         command: |
             logLines = readlines( "tbx/riskContagion/Changelog.md" );
-            startIdx = find( logLines == "## Version" + getenv( "TOOLBOX_VERSION" ) );
+            startIdx = find( logLines == "## Version " + getenv( "TOOLBOX_VERSION" ) );
             allVersionLines = find( startsWith( logLines, "##" ) );
             endIdx = allVersionLines(find( allVersionLines > startIdx, 1 )) - 1;
             releaseNotes = join( logLines(startIdx:endIdx), newline() );
