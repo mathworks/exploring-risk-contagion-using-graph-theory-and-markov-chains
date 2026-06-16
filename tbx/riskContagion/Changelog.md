@@ -1,5 +1,9 @@
 # Release notes
 
+## Version 1.2.8
+
+* Added support for `code font ` in release notes
+
 ## Version 1.2.7
 
 * Fixed typo in toolbox packaging action

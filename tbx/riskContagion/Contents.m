@@ -1,5 +1,5 @@
 % Risk Contagion
-% Version 1.2.7 (R2026a) 03-Jun-2026
+% Version 1.2.8 (R2026a) 16-Jun-2026
 %
 % RiskContagion - Main example script
 % infodist - pairwise information distance between two random variables
